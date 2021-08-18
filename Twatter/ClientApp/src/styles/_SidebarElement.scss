@@ -1,0 +1,23 @@
+@import './variables';
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    
+    &:hover{
+      background-color: #8c97a0;
+      color: $twitter-color;
+      transition: color 100ms ease-out;
+    }
+    // https://material-ui.com/api/svg-icon/
+    .MuiSvgIcon-root {
+      padding: 20px;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-right: 20px;
+    }
+}

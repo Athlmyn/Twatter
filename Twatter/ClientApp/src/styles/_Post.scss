@@ -1,0 +1,44 @@
+@import "./variables";
+
+.Post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid $twitter-background;
+
+    .Avatar{
+        padding: 20px;
+    }
+    .Body{
+        flex: 2;
+        padding: 10px;
+        img{
+            border-radius: 20px;
+            width: 100%;
+        }
+        .HeaderText{
+            h3{
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            .HeaderSpecial{
+                font-weight: 600;
+                font-size: 12px;
+                color: gray;
+                .Badge{
+                    font-size: 14px !important;
+                    color: $twitter-color;
+
+                }
+            }
+            .HeaderDescription{
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+        }
+        .Footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "./variables";
+
+.Sidebar {
+    border-right: 1px solid $twitter-color;
+    flex: 0.25;
+    min-width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .Tweet{
+    background-color: $twitter-color;
+    border: none;
+    color: black;
+    font-weight: 700;
+    text-transform: inherit;
+    border-radius: 20px;
+    height: 50px;
+    margin-top: 20px;
+    }
+    
+    .Twitter-icon {
+        color: $twitter-color;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
